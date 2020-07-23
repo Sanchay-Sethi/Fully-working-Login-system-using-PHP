@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.head-e{
+    background-color: rgb(255, 253, 255);
+    border-bottom-left-radius: 100px;
+    border-left: 20px solid rgba(82, 58, 109, 0.877);
+    border-bottom: 3px solid rgba(82, 58, 109, 0.877);
+    box-shadow: -15px 8px 0px rgba(151, 88, 223, 0.877);
+    z-index: 9999999;
+    
+}
+.head-e .nav-e{
+    /* padding: 0px 15px; */
+    font-weight: 20px;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.head-e .nav-e a{
+    padding: 0px 15px;
+}
+.head-e .nav-e a:hover{
+    text-decoration: underline;
+    color: rgb(133, 81, 192);
+}
+.head-e span{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 20px;
+    /* text-shadow: 1px 1px rgb(133, 81, 192); */
+    transition: all 0.3s ease-in-out;
+}
+.head-e span:hover{
+    transform: scale(1.3);
+}
+.head-e .night-e .button-e:hover{
+    background-color: rgb(138, 23, 138);
+    color: white;
+
+}
+.about-e{
+    z-index: 999;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.829)),url(../img/four.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 50px;
+    border-right: 40px solid  rgba(82, 58, 109, 0.877);
+    border-bottom: 40px solid rgba(82, 58, 109, 0.877);
+    box-shadow: 70px 0px rgba(82, 58, 109, 0.877), 35px 0px palevioletred ;
+    animation: new 7s ease-in-out infinite;
+}
+@keyframes new{
+    0%, 100%{
+        background-image: url(../img/one.jpg);;
+    }
+    50%{
+        background-image: url(../img/four.jpg);; 
+    }
+}
+
+.about-e .logo-e{
+
+    transition: all 0.5s ease-in-out;
+}
+
+
+.about-e .logo-e:hover{
+    transform: scale(1.5);
+
+}
+.about-e #myVideo {
+    /* overflow: hidden; */
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .my-ed{
+      margin-top: 20px;
+      border-radius: 40px;
+      background-color: rgba(245, 245, 245, 0.466);
+      border-top: 20px solid rgba(82, 58, 109, 0.877);
+      border-bottom: 20px solid rgba(82, 58, 109, 0.877);
+  }
+  .my-ed .img-anim{
+      background-image: url(../img/five.jpg);
+      background-position: center;
+      background-size: cover;
+      animation: sanchay 10s ease-in-out infinite;
+      border-radius: 40px;
+  }
+  @keyframes sanchay{
+   
+    25%{
+        background-image: url(../img/six.jpg);; 
+    }
+    50%{
+        background-image: url(../img/seven.jpg);; 
+    }
+    75%{
+        background-image: url(../img/eight.jpg);; 
+    }
+}
+
+.team-e{
+    background-color: rgba(245, 245, 245, 0.438);
+    border-top: 10px solid rgba(82, 58, 109, 0.877);
+    border-bottom: 10px solid rgba(82, 58, 109, 0.877);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+.team-e .img-team1{
+    background-image: url(../img/ten.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    border-radius: 120px;
+    border-bottom: 10px solid purple;
+    
+}
+.team-e .img-team1:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.team-e .img-team2{
+    z-index: 99999;
+    background-image: url(../img/eleven.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1000%);
+    transition: all 0.5s ease-in-out;
+    border-radius: 120px;
+    border-bottom: 10px solid purple;
+    
+}
+.team-e .img-team2:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.team-e .img-team3{
+    background-image: url(../img/nine.jpeg);
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    border-radius: 120px;
+    border-bottom: 10px solid purple;
+
+    /* background-position:initial; */
+}
+.team-e .img-team3:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.team-e .img-team4{
+    background-image: url(../img/twelve.jpeg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    border-radius: 120px;
+    border-bottom: 10px solid purple;
+
+}
+.team-e .img-team4:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+#myVideo2 {
+   border-radius: 40px;
+  }
+  #myVideo3{
+      opacity: 0.5;
+      z-index: -1;
+      position: absolute;
+      background-size: cover;
+    }
+    .rate-e{
+        position: relative;
+        overflow: hidden;
+      margin-top: 15px;
+     
+  }
+  footer .foot-ee .img-e{
+      transition: all 0.4s ease-in-out;
+  }
+
+  footer .foot-ee .img-e:hover{
+      transform: scale(3);
+  }
+.foot-eee{
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: rgb(225, 229, 231);
+    border-bottom: 3px solid purple;
+
+}
+
+  
+
+  
+  
